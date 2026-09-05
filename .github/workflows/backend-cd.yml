@@ -111,7 +111,7 @@ jobs:
         run: |
           aws eks update-kubeconfig \
             --region us-east-1 \
-            --name udacity
+            --name cluster
 
       - name: Update backend image
         working-directory: starter/backend/k8s
