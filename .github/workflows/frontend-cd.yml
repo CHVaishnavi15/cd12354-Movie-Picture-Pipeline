@@ -109,7 +109,7 @@ jobs:
         run: |
           aws eks update-kubeconfig \
             --region us-east-1 \
-            --name udacity
+            --name cluster
 
       - name: Update frontend image
         working-directory: starter/frontend/k8s
